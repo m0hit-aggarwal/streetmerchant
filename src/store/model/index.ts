@@ -154,6 +154,7 @@ import {Xbox} from './xbox';
 import {Zotac} from './zotac';
 import {logger} from '../../logger';
 import chalk from 'chalk';
+import {AmazonIN} from "./amazon-in";
 
 export const storeList = new Map([
   [AComPC.name, AComPC],
@@ -308,6 +309,7 @@ export const storeList = new Map([
   [Wipoid.name, Wipoid],
   [Xbox.name, Xbox],
   [Zotac.name, Zotac],
+  [AmazonIN.name, AmazonIN]
 ]);
 
 const brands = new Set();
