@@ -1,4 +1,4 @@
-import {existsSync, readFileSync} from 'fs';
+  import {existsSync, readFileSync} from 'fs';
 import {banner} from './banner';
 import dotenv from 'dotenv';
 import path from 'path';
@@ -401,6 +401,9 @@ const store = {
   country: envOrString(process.env.COUNTRY, 'usa'),
   maxPrice: {
     series: {
+      '1660ti': -1,
+      '1660super': -1,
+      2060: -1,
       3060: envOrNumber(process.env.MAX_PRICE_SERIES_3060),
       '3060ti': envOrNumber(process.env.MAX_PRICE_SERIES_3060TI),
       3070: envOrNumber(process.env.MAX_PRICE_SERIES_3070),
@@ -434,6 +437,9 @@ const store = {
     };
   }),
   showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, [
+    '1660ti',
+    '1660super',
+    '2060',
     '3060',
     '3060ti',
     '3070',

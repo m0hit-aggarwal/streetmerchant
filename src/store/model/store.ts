@@ -57,6 +57,9 @@ export type Series =
   | 'sonyps5de'
   | 'sf'
   | 'xboxsx'
+  | '1660ti'
+  | '1660super'
+  | '2060'
   | 'xboxss';
 
 export type Model =
@@ -170,6 +173,7 @@ export type Model =
   | 'trinity'
   | 'tuf oc'
   | 'tuf'
+  | 'asus tuf'
   | 'turbo'
   | 'twin edge oc white'
   | 'twin edge oc'
