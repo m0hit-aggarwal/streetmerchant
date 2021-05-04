@@ -401,9 +401,9 @@ const store = {
   country: envOrString(process.env.COUNTRY, 'usa'),
   maxPrice: {
     series: {
-      '1660ti': -1,
-      '1660super': -1,
-      2060: -1,
+      '1660ti': envOrNumber(process.env.MAX_PRICE_SERIES_1660ti),
+      '1660super': envOrNumber(process.env.MAX_PRICE_SERIES_1660super),
+      2060: envOrNumber(process.env.MAX_PRICE_SERIES_2060),
       3060: envOrNumber(process.env.MAX_PRICE_SERIES_3060),
       '3060ti': envOrNumber(process.env.MAX_PRICE_SERIES_3060TI),
       3070: envOrNumber(process.env.MAX_PRICE_SERIES_3070),

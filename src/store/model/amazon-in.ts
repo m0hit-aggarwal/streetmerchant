@@ -28,6 +28,14 @@ brand: 'asus',
       series: '3070',
       url: 'https://www.amazon.in/dp/B08LLG9KQT',
     },
+{
+brand: 'zotac',
+      cartUrl:
+        'https://www.amazon.in/gp/aws/cart/add.html?ASIN.1=B08LBVNKT1&Quantity.1=1',
+      model: 'twin edge oc',
+      series: '3070',
+      url: 'https://www.amazon.in/dp/B08LBVNKT1',
+    },
     {
       brand: 'gigabyte',
       cartUrl:
@@ -35,6 +43,14 @@ brand: 'asus',
       model: 'gaming oc',
       series: '3070',
       url: 'https://www.amazon.in/dp/B08KHL21CV',
+    },
+{
+      brand: 'colorful',
+      cartUrl:
+        'https://www.amazon.in/gp/aws/cart/add.html?ASIN.1=B08MV4GFXH&Quantity.1=1',
+      model: 'oc',
+      series: '3070',
+      url: 'https://www.amazon.in/dp/B08MV4GFXH',
     },
     {
 brand: 'gigabyte',
